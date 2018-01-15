@@ -1,0 +1,6 @@
+[package]
+name = "gocd"
+version = "0.1.0"
+authors = ["Ilari Mäkimattila <ilari.makimattila@gmail.com>"]
+
+[dependencies]
