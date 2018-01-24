@@ -14,7 +14,7 @@ pub struct PipelineHistory {
     pub id: i64,
     pub counter: i64,
     pub name: String,
-    pub natural_order: i64,
+    pub natural_order: f64,
     pub can_run: bool,
     pub comment: Option<String>,
     pub stages: Vec<PipelineHistoryStage>
