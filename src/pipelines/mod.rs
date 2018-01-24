@@ -4,6 +4,9 @@ extern crate serde_json;
 use super::{Gocd, Result};
 
 
+pub mod history;
+
+
 #[derive(Deserialize, Debug)]
 pub struct Pipeline {
     pub name: String,
