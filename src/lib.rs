@@ -8,6 +8,7 @@ use reqwest::header::{Accept, UserAgent, qitem};
 
 
 pub mod pipelines;
+pub mod stages;
 
 type Result<T> = ::std::result::Result<T, Error>;
 
